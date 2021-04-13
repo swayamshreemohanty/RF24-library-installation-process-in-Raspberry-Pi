@@ -10,7 +10,7 @@ Update other software and libraries
 --> sudo apt-get update
 --> sudo apt-get upgrade
 
-Download the install.sh file from http://tmrh20.github.io/RF24Installer/RPi/install.sh
+Download the install.sh file from http://tmrh20.github.io/RF24Installer/RPi/install.sh on your Raspberry Pi. Here my downlaod path is /home/pi
 --> wget http://tmrh20.github.io/RF24Installer/RPi/install.sh
 
 Make it executable
