@@ -1,0 +1,26 @@
+//RF24 library installation process in Raspberry Pi
+
+1st step:
+
+--> sudo raspi-config
+
+Select Advanced and enable the SPI kernel module
+
+Update other software and libraries
+--> sudo apt-get update
+--> sudo apt-get upgrade
+
+Download the install.sh file from http://tmrh20.github.io/RF24Installer/RPi/install.sh
+--> wget http://tmrh20.github.io/RF24Installer/RPi/install.sh
+
+Make it executable
+--> chmod +x install.sh
+
+Run it and choose your options
+--> ./install.sh
+
+2nd step:
+
+--> cd /home/pi/rf24libs/RF24/pyRF24
+
+--> sudo python3 setup.py install
