@@ -1,4 +1,4 @@
-//RF24 library installation process in Raspberry Pi
+//RF24 library installation process on Raspberry Pi
 
 1st step:
 
